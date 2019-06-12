@@ -1,0 +1,52 @@
+# кеш пакетов
+.npm
+*/.enb/tmp
+
+# серверные модули
+node_modules
+
+# компилируемая статика
+*/build
+*/bundles
+!*/bundles/common/common.bemdecl.js
+!*/bundles/common-with-react/common-with-react.bemdecl.js
+!*/bundles/dealers-listing/dealers-listing.bemdecl.js
+!*/bundles/index/index.bemdecl.js
+!*/bundles/500/500.bemjson.js
+!*/bundles/500/500.var.js
+!*/bundles/card/card.bemjson.js
+!*/bundles/card-sold/card-sold.bemjson.js
+!*/bundles/promo/promo.bemjson.js
+auto-core/blocks/ad/_yacontext-helpers-react.js
+
+# svg-спрайт
+*/blocks/page/icons.svg
+
+# папки с интернализацией
+*.i18n
+
+# симлинки
+*/configs/current
+.borschik
+.procss.js
+
+# синхронизаторы
+sftp-config.json
+.realsync
+.syncd
+.remote-sync.json
+
+# другое
+.idea/
+.vscode/
+.DS_Store
+.realsync
+npm-debug.log
+*.swp
+*.tmp
+*.log
+
+*/coverage/
+
+.nodedebug
+
